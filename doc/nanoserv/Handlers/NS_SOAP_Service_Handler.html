@@ -1,0 +1,926 @@
+<html>
+<head>
+<title>Docs For Class NS_SOAP_Service_Handler</title>
+<link rel="stylesheet" type="text/css" href="../../media/style.css">
+</head>
+<body>
+
+<table border="0" cellspacing="0" cellpadding="0" height="48" width="100%">
+  <tr>
+    <td class="header_top">nanoserv</td>
+  </tr>
+  <tr><td class="header_line"><img src="../../media/empty.png" width="1" height="1" border="0" alt=""  /></td></tr>
+  <tr>
+    <td class="header_menu">
+        
+                                    
+                              		  [ <a href="../../classtrees_nanoserv.html" class="menu">class tree: nanoserv</a> ]
+		  [ <a href="../../elementindex_nanoserv.html" class="menu">index: nanoserv</a> ]
+		  	    [ <a href="../../elementindex.html" class="menu">all elements</a> ]
+    </td>
+  </tr>
+  <tr><td class="header_line"><img src="../../media/empty.png" width="1" height="1" border="0" alt=""  /></td></tr>
+</table>
+
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+  <tr valign="top">
+    <td width="200" class="menu">
+      <b>Packages:</b><br />
+              <a href="../../li_nanoserv.html">nanoserv</a><br />
+            <br /><br />
+                        <b>Files:</b><br />
+      	subpackage <b>Core</b><br>  <div class="package">
+			<a href="../../nanoserv/Core/_nanoserv.php.html">		nanoserv.php
+		</a><br>
+	  </div><br />
+	subpackage <b>Handlers</b><br>  <div class="package">
+			<a href="../../nanoserv/Handlers/_handlers---NS_DHCP_Handler.php.html">		NS_DHCP_Handler.php
+		</a><br>
+			<a href="../../nanoserv/Handlers/_handlers---NS_Direct_JSON_RPC_Service_Handler.php.html">		NS_Direct_JSON_RPC_Service_Handler.php
+		</a><br>
+			<a href="../../nanoserv/Handlers/_handlers---NS_Direct_SOAP_Service_Handler.php.html">		NS_Direct_SOAP_Service_Handler.php
+		</a><br>
+			<a href="../../nanoserv/Handlers/_handlers---NS_Direct_XML_RPC_Service_Handler.php.html">		NS_Direct_XML_RPC_Service_Handler.php
+		</a><br>
+			<a href="../../nanoserv/Handlers/_handlers---NS_HTTP_Service_Handler.php.html">		NS_HTTP_Service_Handler.php
+		</a><br>
+			<a href="../../nanoserv/Handlers/_handlers---NS_JSON_RPC_Service_Handler.php.html">		NS_JSON_RPC_Service_Handler.php
+		</a><br>
+			<a href="../../nanoserv/Handlers/_handlers---NS_Line_Input_Connection_Handler.php.html">		NS_Line_Input_Connection_Handler.php
+		</a><br>
+			<a href="../../nanoserv/Handlers/_handlers---NS_Persistent_JSON_RPC_Service_Handler.php.html">		NS_Persistent_JSON_RPC_Service_Handler.php
+		</a><br>
+			<a href="../../nanoserv/Handlers/_handlers---NS_Persistent_SOAP_Service_Handler.php.html">		NS_Persistent_SOAP_Service_Handler.php
+		</a><br>
+			<a href="../../nanoserv/Handlers/_handlers---NS_Persistent_XML_RPC_Service_Handler.php.html">		NS_Persistent_XML_RPC_Service_Handler.php
+		</a><br>
+			<a href="../../nanoserv/Handlers/_handlers---NS_SMTP_Service_Handler.php.html">		NS_SMTP_Service_Handler.php
+		</a><br>
+			<a href="../../nanoserv/Handlers/_handlers---NS_SOAP_Service_Handler.php.html">		NS_SOAP_Service_Handler.php
+		</a><br>
+			<a href="../../nanoserv/Handlers/_handlers---NS_Syslog_Handler.php.html">		NS_Syslog_Handler.php
+		</a><br>
+			<a href="../../nanoserv/Handlers/_handlers---NS_Telnet_Handler.php.html">		NS_Telnet_Handler.php
+		</a><br>
+			<a href="../../nanoserv/Handlers/_handlers---NS_Telnet_Line_Input_Handler.php.html">		NS_Telnet_Line_Input_Handler.php
+		</a><br>
+			<a href="../../nanoserv/Handlers/_handlers---NS_XML_RPC_Service_Handler.php.html">		NS_XML_RPC_Service_Handler.php
+		</a><br>
+	  </div><br />
+      
+            <b>Interfaces:</b><br />
+        <div class="package">
+	Core<br />	    &nbsp;&nbsp;		<a href="../../nanoserv/Core/NS_I_Write_Buffer.html">NS_I_Write_Buffer</a><br />
+	  </div>
+      
+            <b>Classes:</b><br />
+        <div class="package">
+	Core<br />	    &nbsp;&nbsp;		<a href="../../nanoserv/Core/Nanoserv.html">Nanoserv</a><br />
+	    &nbsp;&nbsp;		<a href="../../nanoserv/Core/NS_Client_Exception.html">NS_Client_Exception</a><br />
+	    &nbsp;&nbsp;		<a href="../../nanoserv/Core/NS_Client_Socket.html">NS_Client_Socket</a><br />
+	    &nbsp;&nbsp;		<a href="../../nanoserv/Core/NS_Connection_Handler.html">NS_Connection_Handler</a><br />
+	    &nbsp;&nbsp;		<a href="../../nanoserv/Core/NS_Datagram_Handler.html">NS_Datagram_Handler</a><br />
+	    &nbsp;&nbsp;		<a href="../../nanoserv/Core/NS_Exception.html">NS_Exception</a><br />
+	    &nbsp;&nbsp;		<a href="../../nanoserv/Core/NS_Handler.html">NS_Handler</a><br />
+	    &nbsp;&nbsp;		<a href="../../nanoserv/Core/NS_IPC_Socket.html">NS_IPC_Socket</a><br />
+	    &nbsp;&nbsp;		<a href="../../nanoserv/Core/NS_Listener.html">NS_Listener</a><br />
+	    &nbsp;&nbsp;		<a href="../../nanoserv/Core/NS_Server_Exception.html">NS_Server_Exception</a><br />
+	    &nbsp;&nbsp;		<a href="../../nanoserv/Core/NS_Server_Socket.html">NS_Server_Socket</a><br />
+	    &nbsp;&nbsp;		<a href="../../nanoserv/Core/NS_Shared_Object.html">NS_Shared_Object</a><br />
+	    &nbsp;&nbsp;		<a href="../../nanoserv/Core/NS_Socket.html">NS_Socket</a><br />
+	    &nbsp;&nbsp;		<a href="../../nanoserv/Core/NS_Static_Write_Buffer.html">NS_Static_Write_Buffer</a><br />
+	    &nbsp;&nbsp;		<a href="../../nanoserv/Core/NS_Stream_Write_Buffer.html">NS_Stream_Write_Buffer</a><br />
+	    &nbsp;&nbsp;		<a href="../../nanoserv/Core/NS_Timer.html">NS_Timer</a><br />
+	    &nbsp;&nbsp;		<a href="../../nanoserv/Core/NS_Write_Buffer.html">NS_Write_Buffer</a><br />
+	  </div>
+  <div class="package">
+	Handlers<br />	    &nbsp;&nbsp;		<a href="../../nanoserv/Handlers/NS_DHCP_Exception.html">NS_DHCP_Exception</a><br />
+	    &nbsp;&nbsp;		<a href="../../nanoserv/Handlers/NS_DHCP_Handler.html">NS_DHCP_Handler</a><br />
+	    &nbsp;&nbsp;		<a href="../../nanoserv/Handlers/NS_DHCP_Message.html">NS_DHCP_Message</a><br />
+	    &nbsp;&nbsp;		<a href="../../nanoserv/Handlers/NS_DHCP_Options.html">NS_DHCP_Options</a><br />
+	    &nbsp;&nbsp;		<a href="../../nanoserv/Handlers/NS_Direct_JSON_RPC_Service_Handler.html">NS_Direct_JSON_RPC_Service_Handler</a><br />
+	    &nbsp;&nbsp;		<a href="../../nanoserv/Handlers/NS_Direct_SOAP_Service_Handler.html">NS_Direct_SOAP_Service_Handler</a><br />
+	    &nbsp;&nbsp;		<a href="../../nanoserv/Handlers/NS_Direct_XML_RPC_Service_Handler.html">NS_Direct_XML_RPC_Service_Handler</a><br />
+	    &nbsp;&nbsp;		<a href="../../nanoserv/Handlers/NS_HTTP_Service_Handler.html">NS_HTTP_Service_Handler</a><br />
+	    &nbsp;&nbsp;		<a href="../../nanoserv/Handlers/NS_JSON_RPC_Service_Handler.html">NS_JSON_RPC_Service_Handler</a><br />
+	    &nbsp;&nbsp;		<a href="../../nanoserv/Handlers/NS_Line_Input_Connection_Handler.html">NS_Line_Input_Connection_Handler</a><br />
+	    &nbsp;&nbsp;		<a href="../../nanoserv/Handlers/NS_Persistent_JSON_RPC_Service_Handler.html">NS_Persistent_JSON_RPC_Service_Handler</a><br />
+	    &nbsp;&nbsp;		<a href="../../nanoserv/Handlers/NS_Persistent_SOAP_Service_Handler.html">NS_Persistent_SOAP_Service_Handler</a><br />
+	    &nbsp;&nbsp;		<a href="../../nanoserv/Handlers/NS_Persistent_XML_RPC_Service_Handler.html">NS_Persistent_XML_RPC_Service_Handler</a><br />
+	    &nbsp;&nbsp;		<a href="../../nanoserv/Handlers/NS_SMTP_Service_Handler.html">NS_SMTP_Service_Handler</a><br />
+	    &nbsp;&nbsp;		<a href="../../nanoserv/Handlers/NS_SOAP_Service_Handler.html">NS_SOAP_Service_Handler</a><br />
+	    &nbsp;&nbsp;		<a href="../../nanoserv/Handlers/NS_Syslog_Handler.html">NS_Syslog_Handler</a><br />
+	    &nbsp;&nbsp;		<a href="../../nanoserv/Handlers/NS_Telnet_Handler.html">NS_Telnet_Handler</a><br />
+	    &nbsp;&nbsp;		<a href="../../nanoserv/Handlers/NS_Telnet_Line_Input_Connection.html">NS_Telnet_Line_Input_Connection</a><br />
+	    &nbsp;&nbsp;		<a href="../../nanoserv/Handlers/NS_XML_RPC_Service_Handler.html">NS_XML_RPC_Service_Handler</a><br />
+	  </div>
+                </td>
+    <td>
+      <table cellpadding="10" cellspacing="0" width="100%" border="0"><tr><td valign="top">
+
+<h1>Class: NS_SOAP_Service_Handler</h1>
+Source Location: /handlers/NS_SOAP_Service_Handler.php<br /><br />
+
+
+<table width="100%" border="0">
+<tr><td valign="top">
+
+<h3><a href="#class_details">Class Overview</a></h3>
+<pre><a href="../../nanoserv/Core/NS_Handler.html">NS_Handler</a>
+   |
+   --<a href="../../nanoserv/Core/NS_Connection_Handler.html">NS_Connection_Handler</a>
+      |
+      --<a href="../../nanoserv/Handlers/NS_HTTP_Service_Handler.html">NS_HTTP_Service_Handler</a>
+         |
+         --NS_SOAP_Service_Handler</pre><br />
+<div class="description">SOAP 1.1 over HTTP Service handler class</div><br /><br />
+<h4>Author(s):</h4>
+<ul>
+              </ul>
+
+
+
+
+        
+
+        
+</td>
+
+<td valign="top">
+<h3><a href="#class_vars">Variables</a></h3>
+<ul>
+    <li><a href="../../nanoserv/Handlers/NS_SOAP_Service_Handler.html#var$exports">$exports</a></li>
+    <li><a href="../../nanoserv/Handlers/NS_SOAP_Service_Handler.html#var$hostname">$hostname</a></li>
+    <li><a href="../../nanoserv/Handlers/NS_SOAP_Service_Handler.html#var$method_name">$method_name</a></li>
+    <li><a href="../../nanoserv/Handlers/NS_SOAP_Service_Handler.html#var$request_url">$request_url</a></li>
+  </ul>
+</td>
+
+
+<td valign="top">
+<h3><a href="#class_methods">Methods</a></h3>
+<ul>
+    <li><a href="../../nanoserv/Handlers/NS_SOAP_Service_Handler.html#method__construct">__construct</a></li>
+    <li><a href="../../nanoserv/Handlers/NS_SOAP_Service_Handler.html#methodFault">Fault</a></li>
+    <li><a href="../../nanoserv/Handlers/NS_SOAP_Service_Handler.html#methodGet_Base_Href">Get_Base_Href</a></li>
+    <li><a href="../../nanoserv/Handlers/NS_SOAP_Service_Handler.html#methodGet_Exports">Get_Exports</a></li>
+    <li><a href="../../nanoserv/Handlers/NS_SOAP_Service_Handler.html#methodGet_WSDL">Get_WSDL</a></li>
+    <li><a href="../../nanoserv/Handlers/NS_SOAP_Service_Handler.html#methodGet_XSD">Get_XSD</a></li>
+    <li><a href="../../nanoserv/Handlers/NS_SOAP_Service_Handler.html#methodon_Call">on_Call</a></li>
+    <li><a href="../../nanoserv/Handlers/NS_SOAP_Service_Handler.html#methodon_Request">on_Request</a></li>
+    <li><a href="../../nanoserv/Handlers/NS_SOAP_Service_Handler.html#methodSOAP_Add_Response_Envelope">SOAP_Add_Response_Envelope</a></li>
+    <li><a href="../../nanoserv/Handlers/NS_SOAP_Service_Handler.html#methodVariable_To_SOAP_String">Variable_To_SOAP_String</a></li>
+  </ul>
+</td>
+
+</tr></table>
+<hr />
+
+<table width="100%" border="0"><tr>
+
+
+<td valign="top">
+<h3>Child classes:</h3>
+<div class="tags">
+<dl>
+<dt><a href="../../nanoserv/Handlers/NS_Direct_SOAP_Service_Handler.html">NS_Direct_SOAP_Service_Handler</a></dt>
+	<dd>Direct SOAP over HTTP service handler class</dd>
+</dl>
+<dl>
+<dt><a href="../../nanoserv/Handlers/NS_Persistent_SOAP_Service_Handler.html">NS_Persistent_SOAP_Service_Handler</a></dt>
+	<dd>Persistent SOAP over HTTP service handler class</dd>
+</dl>
+</div>
+</td>
+
+<td valign="top">
+<h3>Inherited Constants</h3>
+<div class="tags">
+<h4>Class: <a href="../../nanoserv/Handlers/NS_HTTP_Service_Handler.html">NS_HTTP_Service_Handler</a></h4>
+<dl>
+<dt>
+  <a href="../../nanoserv/Handlers/NS_HTTP_Service_Handler.html#constCOMPRESS_AUTO">NS_HTTP_Service_Handler::COMPRESS_AUTO</a>
+</dt>
+<dd>
+   
+</dd>
+<dt>
+  <a href="../../nanoserv/Handlers/NS_HTTP_Service_Handler.html#constCOMPRESS_OFF">NS_HTTP_Service_Handler::COMPRESS_OFF</a>
+</dt>
+<dd>
+   
+</dd>
+<dt>
+  <a href="../../nanoserv/Handlers/NS_HTTP_Service_Handler.html#constDEFAULT_CONTENT_TYPE">NS_HTTP_Service_Handler::DEFAULT_CONTENT_TYPE</a>
+</dt>
+<dd>
+   
+</dd>
+<dt>
+  <a href="../../nanoserv/Handlers/NS_HTTP_Service_Handler.html#constMAX_REQUEST_LENGTH">NS_HTTP_Service_Handler::MAX_REQUEST_LENGTH</a>
+</dt>
+<dd>
+   
+</dd>
+<dt>
+  <a href="../../nanoserv/Handlers/NS_HTTP_Service_Handler.html#constSERVER_STRING">NS_HTTP_Service_Handler::SERVER_STRING</a>
+</dt>
+<dd>
+   
+</dd>
+</dl>
+</div>
+<div class="tags">
+<h4>Class: <a href="../../nanoserv/Core/NS_Connection_Handler.html">NS_Connection_Handler</a></h4>
+<dl>
+<dt>
+  <a href="../../nanoserv/Core/NS_Connection_Handler.html#constFAIL_CONNREFUSED">NS_Connection_Handler::FAIL_CONNREFUSED</a>
+</dt>
+<dd>
+   
+</dd>
+<dt>
+  <a href="../../nanoserv/Core/NS_Connection_Handler.html#constFAIL_CRYPTO">NS_Connection_Handler::FAIL_CRYPTO</a>
+</dt>
+<dd>
+   
+</dd>
+<dt>
+  <a href="../../nanoserv/Core/NS_Connection_Handler.html#constFAIL_TIMEOUT">NS_Connection_Handler::FAIL_TIMEOUT</a>
+</dt>
+<dd>
+   
+</dd>
+</dl>
+</div>
+</td>
+
+<td valign="top">
+<h3>Inherited Variables</h3>
+<div class="tags">
+<h4>Class: <a href="../../nanoserv/Handlers/NS_HTTP_Service_Handler.html">NS_HTTP_Service_Handler</a></h4>
+<dl>
+<dt>
+  <a href="../../nanoserv/Handlers/NS_HTTP_Service_Handler.html#var$compress">NS_HTTP_Service_Handler::$compress</a>
+  </dt>
+<dd>
+   
+</dd>
+<dt>
+  <a href="../../nanoserv/Handlers/NS_HTTP_Service_Handler.html#var$compress_level">NS_HTTP_Service_Handler::$compress_level</a>
+  </dt>
+<dd>
+   
+</dd>
+<dt>
+  <a href="../../nanoserv/Handlers/NS_HTTP_Service_Handler.html#var$request_content">NS_HTTP_Service_Handler::$request_content</a>
+  </dt>
+<dd>
+   
+</dd>
+<dt>
+  <a href="../../nanoserv/Handlers/NS_HTTP_Service_Handler.html#var$request_headers">NS_HTTP_Service_Handler::$request_headers</a>
+  </dt>
+<dd>
+   
+</dd>
+<dt>
+  <a href="../../nanoserv/Handlers/NS_HTTP_Service_Handler.html#var$request_method">NS_HTTP_Service_Handler::$request_method</a>
+  </dt>
+<dd>
+   
+</dd>
+<dt>
+  <a href="../../nanoserv/Handlers/NS_HTTP_Service_Handler.html#var$request_protocol">NS_HTTP_Service_Handler::$request_protocol</a>
+  </dt>
+<dd>
+   
+</dd>
+</dl>
+</div>
+<div class="tags">
+<h4>Class: <a href="../../nanoserv/Core/NS_Handler.html">NS_Handler</a></h4>
+<dl>
+<dt>
+  <a href="../../nanoserv/Core/NS_Handler.html#var$socket">NS_Handler::$socket</a>
+  </dt>
+<dd>
+   
+</dd>
+</dl>
+</div>
+</td>
+
+<td valign="top">
+<h3>Inherited Methods</h3>
+<div class="tags">
+<h4>Class: <a href="../../nanoserv/Handlers/NS_HTTP_Service_Handler.html">NS_HTTP_Service_Handler</a></h4>
+<dl>
+    <dt>
+    <a href="../../nanoserv/Handlers/NS_HTTP_Service_Handler.html#methodon_Read">NS_HTTP_Service_Handler::on_Read()</a>
+  </dt>
+  <dd>
+    
+  </dd>
+  </dl>
+<h4>Class: <a href="../../nanoserv/Core/NS_Connection_Handler.html">NS_Connection_Handler</a></h4>
+<dl>
+    <dt>
+    <a href="../../nanoserv/Core/NS_Connection_Handler.html#methodConnect">NS_Connection_Handler::Connect()</a>
+  </dt>
+  <dd>
+    Connect
+  </dd>
+    <dt>
+    <a href="../../nanoserv/Core/NS_Connection_Handler.html#methodDisconnect">NS_Connection_Handler::Disconnect()</a>
+  </dt>
+  <dd>
+    Disconnect
+  </dd>
+    <dt>
+    <a href="../../nanoserv/Core/NS_Connection_Handler.html#methodon_Accept">NS_Connection_Handler::on_Accept()</a>
+  </dt>
+  <dd>
+    Event called on received connection
+  </dd>
+    <dt>
+    <a href="../../nanoserv/Core/NS_Connection_Handler.html#methodon_Connect">NS_Connection_Handler::on_Connect()</a>
+  </dt>
+  <dd>
+    Event called on established connection
+  </dd>
+    <dt>
+    <a href="../../nanoserv/Core/NS_Connection_Handler.html#methodon_Connect_Fail">NS_Connection_Handler::on_Connect_Fail()</a>
+  </dt>
+  <dd>
+    Event called on failed connection
+  </dd>
+    <dt>
+    <a href="../../nanoserv/Core/NS_Connection_Handler.html#methodon_Disconnect">NS_Connection_Handler::on_Disconnect()</a>
+  </dt>
+  <dd>
+    Event called on disconnection
+  </dd>
+    <dt>
+    <a href="../../nanoserv/Core/NS_Connection_Handler.html#methodon_Fork_Done">NS_Connection_Handler::on_Fork_Done()</a>
+  </dt>
+  <dd>
+    Event called after forking, both on master and child processes
+  </dd>
+    <dt>
+    <a href="../../nanoserv/Core/NS_Connection_Handler.html#methodon_Fork_Prepare">NS_Connection_Handler::on_Fork_Prepare()</a>
+  </dt>
+  <dd>
+    Event called before forking
+  </dd>
+    <dt>
+    <a href="../../nanoserv/Core/NS_Connection_Handler.html#methodon_Read">NS_Connection_Handler::on_Read()</a>
+  </dt>
+  <dd>
+    Event called on data reception
+  </dd>
+    <dt>
+    <a href="../../nanoserv/Core/NS_Connection_Handler.html#methodWrite">NS_Connection_Handler::Write()</a>
+  </dt>
+  <dd>
+    Send data over the connection
+  </dd>
+    <dt>
+    <a href="../../nanoserv/Core/NS_Connection_Handler.html#methodWrite_Stream">NS_Connection_Handler::Write_Stream()</a>
+  </dt>
+  <dd>
+    Send open stream over the connection
+  </dd>
+  </dl>
+<h4>Class: <a href="../../nanoserv/Core/NS_Handler.html">NS_Handler</a></h4>
+<dl>
+    <dt>
+    <a href="../../nanoserv/Core/NS_Handler.html#methodSet_Option">NS_Handler::Set_Option()</a>
+  </dt>
+  <dd>
+    Set a stream context option
+  </dd>
+  </dl>
+</div>
+</td>
+
+</tr></table>
+<hr />
+
+<a name="class_details"></a>
+<h3>Class Details</h3>
+<div class="tags">
+[line <a href="../../__filesource/fsource_nanoserv_Handlers_handlersNS_SOAP_Service_Handler.php.html#a39">39</a>]<br />
+SOAP 1.1 over HTTP Service handler class<br /><br /><br /><br />
+<h4>Tags:</h4>
+<div class="tags">
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><b>abstract:</b>&nbsp;&nbsp;</td><td></td>
+  </tr>
+  <tr>
+    <td><b>since:</b>&nbsp;&nbsp;</td><td>1.0.2</td>
+  </tr>
+</table>
+</div>
+</div><br /><br />
+<div class="top">[ <a href="#top">Top</a> ]</div><br />
+
+<hr />
+<a name="class_vars"></a>
+<h3>Class Variables</h3>
+<div class="tags">
+	<a name="var$exports"></a>
+	<p></p>
+	<h4>$exports = <span class="value"></span></h4>
+	<p>[line <a href="../../__filesource/fsource_nanoserv_Handlers_handlersNS_SOAP_Service_Handler.php.html#a57">57</a>]</p>
+  List of exported methods with their parameters<br /><br /><br /><br />
+<h4>Tags:</h4>
+<div class="tags">
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><b>access:</b>&nbsp;&nbsp;</td><td>protected</td>
+  </tr>
+</table>
+</div>
+
+  <br />
+	<div class="tags">
+  <table border="0" cellspacing="0" cellpadding="0">
+    <tr>
+      <td><b>Type:</b>&nbsp;&nbsp;</td>
+      <td>array</td>
+    </tr>
+      </table>
+	</div><br /><br />
+	<div class="top">[ <a href="#top">Top</a> ]</div><br />
+	<a name="var$hostname"></a>
+	<p></p>
+	<h4>$hostname = <span class="value"></span></h4>
+	<p>[line <a href="../../__filesource/fsource_nanoserv_Handlers_handlersNS_SOAP_Service_Handler.php.html#a63">63</a>]</p>
+  Defines the host name of the server, useful for WSDL automatic generation<br /><br /><br /><br />
+<h4>Tags:</h4>
+<div class="tags">
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><b>access:</b>&nbsp;&nbsp;</td><td>protected</td>
+  </tr>
+</table>
+</div>
+
+  <br />
+	<div class="tags">
+  <table border="0" cellspacing="0" cellpadding="0">
+    <tr>
+      <td><b>Type:</b>&nbsp;&nbsp;</td>
+      <td>string</td>
+    </tr>
+      </table>
+	</div><br /><br />
+	<div class="top">[ <a href="#top">Top</a> ]</div><br />
+	<a name="var$method_name"></a>
+	<p></p>
+	<h4>$method_name = <span class="value"></span></h4>
+	<p>[line <a href="../../__filesource/fsource_nanoserv_Handlers_handlersNS_SOAP_Service_Handler.php.html#a51">51</a>]</p>
+  Last called method name<br /><br /><br /><br />
+<h4>Tags:</h4>
+<div class="tags">
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><b>access:</b>&nbsp;&nbsp;</td><td>protected</td>
+  </tr>
+</table>
+</div>
+
+  <br />
+	<div class="tags">
+  <table border="0" cellspacing="0" cellpadding="0">
+    <tr>
+      <td><b>Type:</b>&nbsp;&nbsp;</td>
+      <td>string</td>
+    </tr>
+      </table>
+	</div><br /><br />
+	<div class="top">[ <a href="#top">Top</a> ]</div><br />
+	<a name="var$request_url"></a>
+	<p></p>
+	<h4>$request_url = <span class="value">&nbsp;&quot;&quot;</span></h4>
+	<p>[line <a href="../../__filesource/fsource_nanoserv_Handlers_handlersNS_SOAP_Service_Handler.php.html#a45">45</a>]</p>
+  Request URL<br /><br /><br /><br />
+<h4>Tags:</h4>
+<div class="tags">
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><b>access:</b>&nbsp;&nbsp;</td><td>protected</td>
+  </tr>
+</table>
+</div>
+
+  <br />
+	<div class="tags">
+  <table border="0" cellspacing="0" cellpadding="0">
+    <tr>
+      <td><b>Type:</b>&nbsp;&nbsp;</td>
+      <td>string</td>
+    </tr>
+      </table>
+	</div><br /><br />
+	<div class="top">[ <a href="#top">Top</a> ]</div><br />
+</div><br />
+
+<hr />
+<a name="class_methods"></a>
+<h3>Class Methods</h3>
+<div class="tags">
+
+  <hr />
+	<a name="method__construct"></a>
+	<h3>constructor __construct <span class="smalllinenumber">[line <a href="../../__filesource/fsource_nanoserv_Handlers_handlersNS_SOAP_Service_Handler.php.html#a72">72</a>]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>NS_SOAP_Service_Handler __construct(
+array
+$options)</code>
+    </td></tr></table>
+    </td></tr></table><br />
+	
+		NS_SOAP_Service_Handler constructor<br /><br /><p>The constructor here only builds the exports list for WSDL automatic generation</p><br /><br /><br />
+<h4>Tags:</h4>
+<div class="tags">
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><b>access:</b>&nbsp;&nbsp;</td><td>public</td>
+  </tr>
+</table>
+</div>
+<br /><br />
+
+	<p>Overridden in child classes as:<br />
+		<dl>
+	<dt><a href="../../nanoserv/Handlers/NS_Persistent_SOAP_Service_Handler.html#method__construct">NS_Persistent_SOAP_Service_Handler::__construct()</a></dt>
+		<dd>Persistent SOAP service handler constructor</dd>
+	</dl>
+	</p>
+	
+        <h4>Parameters:</h4>
+    <div class="tags">
+    <table border="0" cellspacing="0" cellpadding="0">
+          <tr>
+        <td class="type">array&nbsp;&nbsp;</td>
+        <td><b>$options</b>&nbsp;&nbsp;</td>
+        <td></td>
+      </tr>
+        </table>
+    </div><br />
+        <div class="top">[ <a href="#top">Top</a> ]</div>
+  </div>
+  <hr />
+	<a name="methodFault"></a>
+	<h3>method Fault <span class="smalllinenumber">[line <a href="../../__filesource/fsource_nanoserv_Handlers_handlersNS_SOAP_Service_Handler.php.html#a144">144</a>]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>string Fault(
+string
+$string, [string
+$code = &quot;Server&quot;])</code>
+    </td></tr></table>
+    </td></tr></table><br />
+	
+		Returns a correctly formatted SOAP fault result<br /><br /><br /><br />
+<h4>Tags:</h4>
+<div class="tags">
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><b>access:</b>&nbsp;&nbsp;</td><td>protected</td>
+  </tr>
+</table>
+</div>
+<br /><br />
+
+	
+        <h4>Parameters:</h4>
+    <div class="tags">
+    <table border="0" cellspacing="0" cellpadding="0">
+          <tr>
+        <td class="type">string&nbsp;&nbsp;</td>
+        <td><b>$string</b>&nbsp;&nbsp;</td>
+        <td></td>
+      </tr>
+          <tr>
+        <td class="type">string&nbsp;&nbsp;</td>
+        <td><b>$code</b>&nbsp;&nbsp;</td>
+        <td></td>
+      </tr>
+        </table>
+    </div><br />
+        <div class="top">[ <a href="#top">Top</a> ]</div>
+  </div>
+  <hr />
+	<a name="methodGet_Base_Href"></a>
+	<h3>method Get_Base_Href <span class="smalllinenumber">[line <a href="../../__filesource/fsource_nanoserv_Handlers_handlersNS_SOAP_Service_Handler.php.html#a157">157</a>]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>string Get_Base_Href(
+)</code>
+    </td></tr></table>
+    </td></tr></table><br />
+	
+		Returns a base location for the HTTP service based on the hostname option and the listening port<br /><br /><br /><br />
+<h4>Tags:</h4>
+<div class="tags">
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><b>access:</b>&nbsp;&nbsp;</td><td>protected</td>
+  </tr>
+</table>
+</div>
+<br /><br />
+
+	
+        <div class="top">[ <a href="#top">Top</a> ]</div>
+  </div>
+  <hr />
+	<a name="methodGet_Exports"></a>
+	<h3>method Get_Exports <span class="smalllinenumber">[line <a href="../../__filesource/fsource_nanoserv_Handlers_handlersNS_SOAP_Service_Handler.php.html#a91">91</a>]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>array Get_Exports(
+)</code>
+    </td></tr></table>
+    </td></tr></table><br />
+	
+		Get list of exported methods with their parameters<br /><br /><p>This methods needs to be overloaded and return the correct list in child classes</p><br /><br /><br />
+<h4>Tags:</h4>
+<div class="tags">
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><b>abstract:</b>&nbsp;&nbsp;</td><td></td>
+  </tr>
+  <tr>
+    <td><b>access:</b>&nbsp;&nbsp;</td><td>public</td>
+  </tr>
+</table>
+</div>
+<br /><br />
+
+	<p>Overridden in child classes as:<br />
+		<dl>
+	<dt><a href="../../nanoserv/Handlers/NS_Direct_SOAP_Service_Handler.html#methodGet_Exports">NS_Direct_SOAP_Service_Handler::Get_Exports()</a></dt>
+		<dd></dd>
+	</dl>
+		<dl>
+	<dt><a href="../../nanoserv/Handlers/NS_Persistent_SOAP_Service_Handler.html#methodGet_Exports">NS_Persistent_SOAP_Service_Handler::Get_Exports()</a></dt>
+		<dd></dd>
+	</dl>
+	</p>
+	
+        <div class="top">[ <a href="#top">Top</a> ]</div>
+  </div>
+  <hr />
+	<a name="methodGet_WSDL"></a>
+	<h3>method Get_WSDL <span class="smalllinenumber">[line <a href="../../__filesource/fsource_nanoserv_Handlers_handlersNS_SOAP_Service_Handler.php.html#a200">200</a>]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>string Get_WSDL(
+)</code>
+    </td></tr></table>
+    </td></tr></table><br />
+	
+		Generates a WSDL document for the current service<br /><br /><br /><br />
+<h4>Tags:</h4>
+<div class="tags">
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><b>access:</b>&nbsp;&nbsp;</td><td>public</td>
+  </tr>
+</table>
+</div>
+<br /><br />
+
+	
+        <div class="top">[ <a href="#top">Top</a> ]</div>
+  </div>
+  <hr />
+	<a name="methodGet_XSD"></a>
+	<h3>method Get_XSD <span class="smalllinenumber">[line <a href="../../__filesource/fsource_nanoserv_Handlers_handlersNS_SOAP_Service_Handler.php.html#a273">273</a>]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>string Get_XSD(
+string
+$method)</code>
+    </td></tr></table>
+    </td></tr></table><br />
+	
+		Generates a XSD document for the specified method<br /><br /><br /><br />
+<h4>Tags:</h4>
+<div class="tags">
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><b>access:</b>&nbsp;&nbsp;</td><td>public</td>
+  </tr>
+</table>
+</div>
+<br /><br />
+
+	
+        <h4>Parameters:</h4>
+    <div class="tags">
+    <table border="0" cellspacing="0" cellpadding="0">
+          <tr>
+        <td class="type">string&nbsp;&nbsp;</td>
+        <td><b>$method</b>&nbsp;&nbsp;</td>
+        <td></td>
+      </tr>
+        </table>
+    </div><br />
+        <div class="top">[ <a href="#top">Top</a> ]</div>
+  </div>
+  <hr />
+	<a name="methodon_Call"></a>
+	<h3>method on_Call <span class="smalllinenumber">[line <a href="../../__filesource/fsource_nanoserv_Handlers_handlersNS_SOAP_Service_Handler.php.html#a471">471</a>]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>mixed on_Call(
+string
+$method, array
+$args)</code>
+    </td></tr></table>
+    </td></tr></table><br />
+	
+		Event called on SOAP method call<br /><br /><p>the value returned by on_Call() will be sent back as the SOAP method call response</p><br /><br /><br />
+<h4>Tags:</h4>
+<div class="tags">
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><b>abstract:</b>&nbsp;&nbsp;</td><td></td>
+  </tr>
+  <tr>
+    <td><b>access:</b>&nbsp;&nbsp;</td><td>public</td>
+  </tr>
+</table>
+</div>
+<br /><br />
+
+	<p>Overridden in child classes as:<br />
+		<dl>
+	<dt><a href="../../nanoserv/Handlers/NS_Direct_SOAP_Service_Handler.html#methodon_Call">NS_Direct_SOAP_Service_Handler::on_Call()</a></dt>
+		<dd></dd>
+	</dl>
+		<dl>
+	<dt><a href="../../nanoserv/Handlers/NS_Persistent_SOAP_Service_Handler.html#methodon_Call">NS_Persistent_SOAP_Service_Handler::on_Call()</a></dt>
+		<dd></dd>
+	</dl>
+	</p>
+	
+        <h4>Parameters:</h4>
+    <div class="tags">
+    <table border="0" cellspacing="0" cellpadding="0">
+          <tr>
+        <td class="type">string&nbsp;&nbsp;</td>
+        <td><b>$method</b>&nbsp;&nbsp;</td>
+        <td></td>
+      </tr>
+          <tr>
+        <td class="type">array&nbsp;&nbsp;</td>
+        <td><b>$args</b>&nbsp;&nbsp;</td>
+        <td></td>
+      </tr>
+        </table>
+    </div><br />
+        <div class="top">[ <a href="#top">Top</a> ]</div>
+  </div>
+  <hr />
+	<a name="methodon_Request"></a>
+	<h3>method on_Request <span class="smalllinenumber">[line <a href="../../__filesource/fsource_nanoserv_Handlers_handlersNS_SOAP_Service_Handler.php.html#a314">314</a>]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>void on_Request(
+
+$url)</code>
+    </td></tr></table>
+    </td></tr></table><br />
+	
+		<br /><br />
+<h4>Tags:</h4>
+<div class="tags">
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><b>access:</b>&nbsp;&nbsp;</td><td>public</td>
+  </tr>
+</table>
+</div>
+<br /><br />
+
+	
+        <h4>Parameters:</h4>
+    <div class="tags">
+    <table border="0" cellspacing="0" cellpadding="0">
+          <tr>
+        <td class="type">&nbsp;&nbsp;</td>
+        <td><b>$url</b>&nbsp;&nbsp;</td>
+        <td></td>
+      </tr>
+        </table>
+    </div><br />
+        <div class="top">[ <a href="#top">Top</a> ]</div>
+  </div>
+  <hr />
+	<a name="methodSOAP_Add_Response_Envelope"></a>
+	<h3>method SOAP_Add_Response_Envelope <span class="smalllinenumber">[line <a href="../../__filesource/fsource_nanoserv_Handlers_handlersNS_SOAP_Service_Handler.php.html#a129">129</a>]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>string SOAP_Add_Response_Envelope(
+string
+$result)</code>
+    </td></tr></table>
+    </td></tr></table><br />
+	
+		Add SOAP response envelope<br /><br /><br /><br />
+<h4>Tags:</h4>
+<div class="tags">
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><b>access:</b>&nbsp;&nbsp;</td><td>protected</td>
+  </tr>
+</table>
+</div>
+<br /><br />
+
+	
+        <h4>Parameters:</h4>
+    <div class="tags">
+    <table border="0" cellspacing="0" cellpadding="0">
+          <tr>
+        <td class="type">string&nbsp;&nbsp;</td>
+        <td><b>$result</b>&nbsp;&nbsp;</td>
+        <td></td>
+      </tr>
+        </table>
+    </div><br />
+        <div class="top">[ <a href="#top">Top</a> ]</div>
+  </div>
+  <hr />
+	<a name="methodVariable_To_SOAP_String"></a>
+	<h3>method Variable_To_SOAP_String <span class="smalllinenumber">[line <a href="../../__filesource/fsource_nanoserv_Handlers_handlersNS_SOAP_Service_Handler.php.html#a99">99</a>]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>string Variable_To_SOAP_String(
+string
+$var, [
+$key = false])</code>
+    </td></tr></table>
+    </td></tr></table><br />
+	
+		Convert a PHP variable to SOAP string representation<br /><br /><br /><br />
+<h4>Tags:</h4>
+<div class="tags">
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><b>access:</b>&nbsp;&nbsp;</td><td>protected</td>
+  </tr>
+</table>
+</div>
+<br /><br />
+
+	
+        <h4>Parameters:</h4>
+    <div class="tags">
+    <table border="0" cellspacing="0" cellpadding="0">
+          <tr>
+        <td class="type">string&nbsp;&nbsp;</td>
+        <td><b>$var</b>&nbsp;&nbsp;</td>
+        <td></td>
+      </tr>
+          <tr>
+        <td class="type">&nbsp;&nbsp;</td>
+        <td><b>$key</b>&nbsp;&nbsp;</td>
+        <td></td>
+      </tr>
+        </table>
+    </div><br />
+        <div class="top">[ <a href="#top">Top</a> ]</div>
+  </div>
+</div><br />
+
+
+        <div class="credit">
+		    <hr />
+		    Documentation generated on Wed, 03 Aug 2011 11:18:09 +0200 by <a href="http://www.phpdoc.org">phpDocumentor 1.4.3</a>
+	      </div>
+      </td></tr></table>
+    </td>
+  </tr>
+</table>
+
+</body>
+</html>

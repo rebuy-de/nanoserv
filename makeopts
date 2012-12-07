@@ -1,0 +1,6 @@
+PHP_BIN=/opt/local/bin/php
+PHPDOC_BIN=/opt/local/lib/php/pear/bin/phpdoc
+INSTALL_DIR=/opt/local/lib/php/pear/share/pear
+HAVE_STATIC=y
+HAVE_NAMESPACE=y
+HAVE_CLOSURE=y
