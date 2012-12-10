@@ -1,0 +1,8 @@
+{
+    "name": "rebuy/nanoserv",
+    "autoload": {
+        "psr-0": {
+            "nanoserv" : "src/"
+        } 
+    }
+}
