@@ -1,0 +1,72 @@
+#!/opt/local/bin/php
+<?php
+
+require "nanoserv/handlers/HTTP/Server.php";
+
+class NS_httpd extends \Nanoserv\HTTP\Server {
+
+	private $docroot;
+
+	public function __construct($docroot) {
+
+		$this->docroot = $docroot;
+
+		// Enable automatic content compression
+		$this->Set_Compression();
+
+	}
+	
+	public function on_Request($url) {
+
+		$cfn = realpath($this->docroot.DIRECTORY_SEPARATOR.$url);
+
+		if ((strpos($cfn, $this->docroot) !== 0) || (!is_readable($cfn))) {
+
+			$this->Set_Response_Status(404);
+			return "<html><body><h1>Not Found</h1></body></html>";
+
+		} else {
+
+			if (is_dir($cfn)) {
+
+				$ret .= "<ul>";
+
+				foreach (scandir($cfn) as $dname) {
+
+					if ($dname == ".") continue;
+
+					$ret .= "<li><a href='".addslashes($url.($url{strlen($url)-1} != "/" ? "/" : "").$dname)."'>".$dname."</a></li>";
+
+				}
+
+				$ret .= "</ul><hr /><span style='font-size:10px;'>nanoserv/2.1.0</span>";
+
+				return "<html><body>" . $ret . "</body></html>";
+
+			} else {
+
+				if ((is_callable("mime_content_type")) && ($ct = mime_content_type($cfn))) $this->Set_Content_Type($ct);
+
+				return file_get_contents($cfn);
+
+			}
+
+		}
+
+	}
+
+}
+
+$docroot = realpath($argv[1]) or die("usage: ".$argv[0]." /path/to/document/root\n");
+
+\Nanoserv\Core::New_Listener("tcp://0.0.0.0:800", "NS_httpd", $docroot)->Activate();
+
+$ssl = \Nanoserv\Core::New_Listener("ssl://0.0.0.0:443", "NS_httpd", $docroot);
+
+$ssl->Set_Option("ssl", "local_cert", "/etc/ssl/certs/nanoweb.pem");
+$ssl->Set_Forking();
+$ssl->Activate() or die("unable to activate ssl listener");
+
+\Nanoserv\Core::Run();
+
+?>
